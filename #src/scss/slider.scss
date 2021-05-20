@@ -1,0 +1,68 @@
+.slider {
+  position: relative;
+
+  &__item {
+    padding: 180px 0  0 200px;
+    &-1 {
+      background-image: url("../img/bg-slide1.png");
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      height: 900px;
+    }
+  }
+  &__content{
+    text-align: center;
+    max-width: 550px;
+    &-suptitle {
+      @extend %montserrat-600;
+      font-size: $fz25;
+      line-height: 1;
+      margin-bottom: 50px;
+    }
+    &-title{
+      @extend %montserrat-700;
+      font-size: $fz40;
+      line-height: 1.5;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+    }
+    &-link{
+      @extend %montserrat-500;
+      color: $textButtons;
+      background-color: $buttonLinks;
+      text-transform: uppercase;
+      border-radius: 50px;
+      padding: 20px 40px;
+    }
+  }
+
+}
+.slider-dog{
+  position: absolute;
+  top: 170px;
+  left: calc(50% - 100px);
+  
+}
+.about__more {
+  position: absolute;
+  top: calc(50% - 33px);
+  width: 37px;
+  height: 66px;
+  z-index: 10;
+  svg{
+    fill: $crossPrice;
+    &:hover {
+      cursor: pointer;
+      fill: #0075ac;
+    }
+  }
+  &.more__item_prev {
+    left: 55px;
+    transform: rotate(180deg);
+  }
+  &.more__item_next {
+    right: 55px;
+  }
+}
+

@@ -1,0 +1,55 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 55px;
+
+    &-logo {
+      margin-right: 120px;
+    }
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      width: 100%;
+      max-width: 743px;
+
+      a {
+        @extend %montserrat-600;
+        color: $mainText;
+        font-size: $fz16;
+      }
+
+    }
+
+    .phone {
+      @extend %montserrat-700;
+      width: 100%;
+      max-width: 200px;
+      color: $buttonLinks;
+      margin-right: 50px;
+    }
+
+    .feedbackCall {
+      @extend %montserrat-700;
+      text-transform: uppercase;
+      padding: 9px 25px;
+      border-radius: 50px;
+      margin-right: 20px;
+      background-color: rgba(51, 102, 153, 0.17);
+    }
+
+    .cart {
+      background-color: transparent;
+    }
+  }
+
+
+}

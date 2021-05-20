@@ -1,0 +1,33 @@
+$mainText: #000;
+$subtitle: rgba(0, 0, 0, 0.5);
+$buttonLinks: #1D67B0;
+$textButtons: #fff;
+$sale: #F97878;
+$crossPrice: #336699;
+$placeHolder: rgba(25, 25, 24, 0.32);
+
+$fz16: 16px;
+$fz25: 25px;
+$fz40: 40px;
+
+
+%montserrat-400{
+  font-family: 'montserrat-regular';
+  font-weight: 400;
+}
+
+%montserrat-500{
+  font-family: 'montserrat-medium';
+  font-weight: 500;
+}
+
+%montserrat-600{
+  font-family: 'montserrat-semibold';
+  font-weight: 600;
+}
+
+%montserrat-700{
+  font-family: 'montserrat-bold';
+  font-weight: 700;
+}
+
