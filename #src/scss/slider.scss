@@ -45,14 +45,13 @@
 }
 
 .slider-dog {
-  position: absolute;
-  top: 170px;
+  position: relative;
+  top: -270px;
   left: calc(50% - 100px);
-  fill: red;
   -webkit-filter:
-    drop-shadow(0 9px 8px rgba(0, 0, 0, .7));
+    drop-shadow(0 8px 10px rgba(0, 0, 0, .5));
   filter:
-    drop-shadow(0 9px 8px rgba(0, 0, 0, .7));
+    drop-shadow(0 8px 10px rgba(0, 0, 0, .5));
 }
 
 .about__more {
