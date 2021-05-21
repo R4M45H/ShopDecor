@@ -2,7 +2,8 @@
   position: relative;
 
   &__item {
-    padding: 180px 0  0 200px;
+    padding: 180px 0 0 200px;
+
     &-1 {
       background-image: url("../img/bg-slide1.png");
       background-size: cover;
@@ -11,23 +12,27 @@
       height: 900px;
     }
   }
-  &__content{
+
+  &__content {
     text-align: center;
     max-width: 550px;
+
     &-suptitle {
       @extend %montserrat-600;
       font-size: $fz25;
       line-height: 1;
       margin-bottom: 50px;
     }
-    &-title{
+
+    &-title {
       @extend %montserrat-700;
       font-size: $fz40;
       line-height: 1.5;
       text-transform: uppercase;
       margin-bottom: 60px;
     }
-    &-link{
+
+    &-link {
       @extend %montserrat-500;
       color: $textButtons;
       background-color: $buttonLinks;
@@ -38,31 +43,40 @@
   }
 
 }
-.slider-dog{
+
+.slider-dog {
   position: absolute;
   top: 170px;
   left: calc(50% - 100px);
-  
+  fill: red;
+  -webkit-filter:
+    drop-shadow(0 9px 8px rgba(0, 0, 0, .7));
+  filter:
+    drop-shadow(0 9px 8px rgba(0, 0, 0, .7));
 }
+
 .about__more {
   position: absolute;
   top: calc(50% - 33px);
   width: 37px;
   height: 66px;
   z-index: 10;
-  svg{
+
+  svg {
     fill: $crossPrice;
+
     &:hover {
       cursor: pointer;
       fill: #0075ac;
     }
   }
+
   &.more__item_prev {
     left: 55px;
     transform: rotate(180deg);
   }
+
   &.more__item_next {
     right: 55px;
   }
 }
-
