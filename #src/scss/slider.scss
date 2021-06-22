@@ -90,4 +90,12 @@
   &.more__item_next {
     right: 55px;
   }
+  .slider-quality__pagging{
+    position: absolute;
+    left: calc(50% - 75px);
+    background-color: #f7afaf;
+    width: 150px;
+    height: 150px;
+    z-index: 100;
+  }
 }

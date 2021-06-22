@@ -602,6 +602,15 @@ body.ie ._ibg img {
   right: 55px;
 }
 
+.about__more .slider-quality__pagging {
+  position: absolute;
+  left: calc(50% - 75px);
+  background-color: #f7afaf;
+  width: 150px;
+  height: 150px;
+  z-index: 100;
+}
+
 .page {
   padding: 90px 0px 0px 0px;
   -webkit-box-flex: 1;
